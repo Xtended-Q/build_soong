@@ -113,6 +113,7 @@ func installClean(ctx Context, config Config, what int) {
 		productOut("installed-files-*.*"),
 		productOut("recovery.id"),
 		productOut("kernel"),
+		productOut("recovery_kernel"),
 		productOut("data"),
 		productOut("dtbo"),
 		productOut("skin"),
